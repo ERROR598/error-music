@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: music-player
+    repo: https://github.com/ERROR598/error-music
+    buildCommand: npm install
+    startCommand: npm start
